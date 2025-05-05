@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #105b7e;
+  }
+  
+  #magicText {
+    transition: all 0.3s ease;
+  }
+  
+  .tab-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  #gallery{
+    width: 50%;
+    height: 300px; 
+  }
+  h2{
+    color: #7009f8;
+  }

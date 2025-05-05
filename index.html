@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Playground</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>🕹️ Welcome to My Interactive Page</h1>
+  </header>
+
+  <main>
+    <!-- Button Interaction -->
+    <section>
+      <h2>🎈 Button Magic</h2>
+      <button id="magicButton">Click Me!</button>
+      <p id="magicText">Watch this change...</p>
+    </section>
+
+    <!-- Image Slideshow -->
+    <section>
+      <h2>🖼️ Slideshow</h2>
+      <img id="gallery" src="images/image1.png" alt="Gallery Image">
+      <br>
+      <button onclick="nextImage()">Next</button>
+    </section>
+
+    <!-- Tabs -->
+    <section>
+      <h2>🗂️ Tabs</h2>
+      <div class="tabs">
+        <button onclick="showTab('tab1')">Tab 1</button>
+        <button onclick="showTab('tab2')">Tab 2</button>
+      </div>
+      <div id="tab1" class="tab-content">This is content for Tab 1.</div>
+      <div id="tab2" class="tab-content" style="display: none;">This is content for Tab 2.</div>
+    </section>
+
+    <!-- Form Validation -->
+    <section>
+      <h2>📋 Sign Up</h2>
+      <form id="signupForm">
+        <label>Email: <input type="email" id="email" required></label><br>
+        <label>Password: <input type="password" id="password" required></label><br>
+        <button type="submit">Submit</button>
+        <p id="formFeedback"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fun Interactive Page</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
